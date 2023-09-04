@@ -18,8 +18,12 @@ Tu entrega será evaluada en función de cuán similar sea tu resultado en el na
 ## HTML (no modificar)
 ```html
   <div id="wrapper">
-  <div id="logo"></div>
-  <h1>Codr</h1>
+    <div id="logo">
+      <div id="circle"></div>
+      <div id="ring_1"></div>
+      <div id="ring_2"></div>
+    </div>
+    <h1>Codr</h1>
   </div>
 ```
 ## CSS
@@ -30,3 +34,27 @@ Tu entrega será evaluada en función de cuán similar sea tu resultado en el na
 ```
 ## Sugerencia de presentación
 ![Alt text](image.png)
+
+## Sugerencia de solución
+```css
+  #wrapper{
+    background-color: #02203c; 
+  }
+  /* 
+  ancho y alto de 10px 
+  borde blanco sólido de 5px
+  El borde izquierdo del círculo interior está a 50px del borde izquierdo del #wrapper.*/
+  #circle{
+    height: 10px;
+    width: 10px;
+    border: 5px solid white;
+    border-radius: 100%;
+    left: 50px;
+  }
+  #ring_1{
+    // Estilos
+  }
+  #ring_2{
+    // Estilos
+  }
+```
