@@ -42,3 +42,36 @@ Tu código HTML debe usar un marcado semántico adecuado. Sin embargo, solo nece
 ## Sugerencia de presentación
 
 ![Alt text](image-3.png)
+
+## Sugerencia de solución
+
+```html
+<article>
+  <main>
+  <h2>Receta</h2>
+  <p>Descripción</p>
+
+  <section>
+    <h3>Sección 1</h3>
+    <p>Descripción</p>
+    <ul>
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3>Sección 1</h3>
+    <p>Descripción</p>
+    <ol> <!-- 1. 2. 3. -->
+      <li>Item 1</li>
+      <li>
+        <ol>...</ol> <!-- 1. 2. ... -->
+      </li>
+      <li>Item 3</li>
+    </ol>
+  </section>
+  </main>
+</article>
+```
