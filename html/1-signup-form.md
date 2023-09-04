@@ -19,3 +19,18 @@ Solo necesitas escribir el HTML que iría dentro de la etiqueta <body> del docum
 ![Alt text](image.png)
 2
 ![Alt text](image-1.png)
+## Sugerencia de solución
+```html
+<form>
+  <!-- Campo de usuario -->
+  <label id="username-label" for="username" required>Campo:</label>
+  <input id="username" type="text">
+
+  <br> <!-- Salto de línea -->
+
+  <label>Texto del label</label>
+  <input ...>
+  ...
+  <input type="submit" value="Registro">
+</form>
+```
