@@ -31,6 +31,6 @@ Solo necesitas escribir el HTML que iría dentro de la etiqueta <body> del docum
   <label>Texto del label</label>
   <input ...>
   ...
-  <input type="submit" value="Registro">
+  <input type="submit" value="Registrarse">
 </form>
 ```
