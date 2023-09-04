@@ -28,3 +28,21 @@ Tu entrega será evaluada en función de cuán similar sea tu resultado en el na
 ```
 ## Sugerencia de presentación
 ![Alt text](image-1.png)
+
+## Sugerencia de solución
+```css
+  #outer{
+    border-radius: 50px solid #ff0000;
+    /* Estilos de anillo rojo */
+  }
+  #outer{
+    /* Estilos de anillo naranja */
+    height: 250px;
+    ...
+  }
+  ...
+```
+
+## Solución
+
+[CSS 2 - Rainbow Circles](../css/2-rainbow-circles/)
