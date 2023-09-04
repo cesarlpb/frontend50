@@ -36,3 +36,14 @@ Tu entrega será evaluada en función de cuán similar sea tu resultado en el na
 ![Alt text](image-2.png)
 2
 ![Alt text](image-3.png)
+
+## Pistas
+Para colocar efecto cuando el cursor está encima del elemento se usa `:hover`:
+```css
+  li{
+    /* Estilos*/
+  }
+  li:hover{
+    /* Estilos cuando el cursor está encima del elemento */
+  }
+```
