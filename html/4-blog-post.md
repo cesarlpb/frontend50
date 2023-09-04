@@ -25,3 +25,21 @@ Tu código HTML debe usar un marcado semántico adecuado. Sin embargo, solo nece
 ```
 ## Sugerencia de presentación
 
+## Sugerencia de solución
+```html
+<article>
+  <!-- Cabecero -->
+  <header>
+    <h2>Título del Post</h2>
+    <p id="subtitle">Subtítulo</p>
+  </header>
+
+  <!-- Secciones -->
+  <section><!-- h3 y p --></section>
+  <hr>
+  <section><!-- h3 y p --></section>
+
+  <!-- Pie de página-->
+  <footer>Copyright 2023 CodrCoin. Todos los derechos reservados.</footer>
+</article>
+```
