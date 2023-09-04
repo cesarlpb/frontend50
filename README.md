@@ -6,7 +6,7 @@ Reto:
 - Dormir bien
 - Beber agua
 
-## HTMl (1-4)
+## HTML (1-4)
 - [Ejercicio 1 - Formulario de Registro](./html/1-signup-form.md)
 - [Ejercicio 2 - Carrito de Compra](./html/2-item-cart.md)
 - [Ejercicio 3 - Receta](./html/3-recipe.md)
