@@ -20,6 +20,7 @@ Tu envío se evaluará según la similitud de la salida del navegador con la Sal
   <div class="head">
     <div>
       <div class="ear"></div>
+      <div class="ear"></div>
     </div>
 
 
@@ -41,3 +42,28 @@ Tu envío se evaluará según la similitud de la salida del navegador con la Sal
 
 ## Sugerencia de presentación
 ![Alt text](image-4.png)
+
+## Pista
+Se puede seleccionar el primer elemento o el último, o cualquier de en medio, entre varios de una clase, por ejemplo:
+```css
+  .ear{
+    /* Seleccionar ambos eementos de class "ear"*/
+  }
+  .ear:first-of-type{
+    /* El primer div de class "ear" (izquierda) */
+  }
+  .ear:last-of-type{
+    /* El último div de class "ear" (derecha) */
+  }
+
+  /*
+  :nth-of-type(even) -> elementos pares 
+  :nth-of-type(odd)  -> elementos impares
+  .ear:nth-of-type(1)    -> primer .ear
+  .ear:nth-of-type(2)    -> segundo .ear
+  */
+```
+Más información: 
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type
+- https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
