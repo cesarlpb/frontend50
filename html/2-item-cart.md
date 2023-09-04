@@ -28,3 +28,23 @@ Solo necesitas escribir el HTML que iría dentro de la etiqueta <body> del docum
 ## Sugerencia de presentación
 
 ![Alt text](image-2.png)
+
+## Sugerencia de solución
+
+```html
+  <table>
+    <!-- Fila -->
+    <tr>
+      <!-- Encabezados -->
+      <th>Producto</th>
+      ...
+    </tr>
+    <!-- Fila de datos-->
+    <tr>
+      <th>Plátano</th>
+      <td>$1.00</td>
+      <td>3</td>
+    </tr>
+    ... 2 filas más de productos y fila de total
+  </table>
+```
