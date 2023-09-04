@@ -6,14 +6,17 @@ Reto:
 - Dormir bien
 - Beber agua
 
-## HTMl
+## HTMl (1-4)
 - [Ejercicio 1 - Formulario de Registro](./html/1-signup-form.md)
 - [Ejercicio 2 - Carrito de Compra](./html/2-item-cart.md)
 - [Ejercicio 3 - Receta](./html/3-recipe.md)
 - [Ejercicio 4 - Blog Post](./html/4-blog-post.md)
 
-## CSS
+## CSS (5-10)
 
 - [Ejercicio 5 - Logo](./css/1-logo.md)
 - [Ejercicio 6 - Círculos del arcoíris](./css/2-rainbow-circles.md)
 - [Ejercicio 7 - Navbar](./css/3-navbar.md)
+- [Ejercicio 8 - Emoji de Cerdo](./css/4-pig-emoji.md)
+- [Ejercicio 9 - Formulario de Compra](./css/5-purchase-form.md)
+- [Ejercicio 10 - Productos](./css/6-products.md)
