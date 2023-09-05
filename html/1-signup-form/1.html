@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sign Up Form</title>
+  <style>
+    form, body{
+      background-color: lightgray;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h2>Formulario de Registro</h2>
+  <form>
+    <!-- Username -->
+    <label for="username">Usuario:</label>
+    <input id="username" type="text" placeholder="user.name" required>
+    <br>
+    <!-- Type password es necesario en contraseñas -->
+    <label for="password">Contraseña:</label>
+    <input id="password" type="password" required>
+    <br>
+    <!-- Type email valida email -->
+    <label for="email">Email:</label>
+    <input id="email" type="email" placeholder="email@domain.com" required>
+    <br>
+    <!-- Type tel no valida por defecto -->
+    <label for="phone">Teléfono:</label>
+    <input id="phone" type="tel" placeholder="(34)-123-456-789">
+    <br>
+    <label for="date">Fecha de nacimiento:</label>
+    <input id="date" type="date">
+    <br>
+    <!-- Términos -->
+    <input id="terms-and-conditions" type="checkbox" required>
+    <label for="terms-and-conditions">Estoy de acuerdo con los términos</label>
+    <br>
+    <!-- Botón para enviar form -->
+    <input type="submit" value="Registrarse">  
+  </form>
+</body>
+</html>
