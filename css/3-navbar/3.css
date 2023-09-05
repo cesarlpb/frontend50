@@ -1,0 +1,36 @@
+body, nav{
+  background-color: lightgray;
+}
+/* Solución  */
+:root{
+  --font-size: 18px;
+}
+nav{
+  display: flex;
+  background-color: #6e072d;
+  color: white;
+  justify-content: space-between;
+}
+ul{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+li{
+  display: inline-block;
+  font-size: 18px;
+  padding: var(--font-size) calc(1.5*var(--font-size));
+}
+li:hover{
+  background-color: #b90e4d;
+  cursor: pointer;
+}
+li{
+  border-right: 2px solid white;
+}
+/* Descartamos los <li> que están al final de cada <ul> */
+li:last-of-type{
+  border-right: none;
+}
+/* Alternativa */
+/* li:not(:last-of-type()){ border-right: 2px... } */
