@@ -31,3 +31,4 @@ Reto:
 - [Ejercicio 16 - Event Target ](./js/4-event-target.md)
 - [Ejercicio 17 - Debounce ](./js/5-debounce.md)
 - [Ejercicio 18 - This Binding ](./js/6-this-binding.md)
+- [Ejercicio 19 - Promisify ](./js/7-promisify.md)
