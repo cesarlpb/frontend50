@@ -32,3 +32,4 @@ Reto:
 - [Ejercicio 17 - Debounce ](./js/5-debounce.md)
 - [Ejercicio 18 - This Binding ](./js/6-this-binding.md)
 - [Ejercicio 19 - Promisify ](./js/7-promisify.md)
+- [Ejercicio 20 - Throttle ](./js/8-throttle.md)
