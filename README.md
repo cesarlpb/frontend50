@@ -20,3 +20,5 @@ Reto:
 - [Ejercicio 8 - Emoji de Cerdo](./css/4-pig-emoji.md)
 - [Ejercicio 9 - Formulario de Compra](./css/5-purchase-form.md)
 - [Ejercicio 10 - Productos](./css/6-products.md)
+- [Ejercicio 11 - Emoji de Robot](./css/7-robot-emoji.md)
+
