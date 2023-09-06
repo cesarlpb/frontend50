@@ -1,7 +1,7 @@
 # CSS 5 - Purchase Form
 
 ```
-Se te proporciona un archivo HTML con la marca para un formulario de compra, similar al formulario de compra real en AlgoExpert.
+Se te proporciona un archivo HTML con la marca para un formulario de compra, similar al formulario de compra real en una tienda online.
 
 Usando solo CSS, estiliza el formulario de compra con las siguientes características:
 
