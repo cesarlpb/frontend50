@@ -66,3 +66,9 @@ Más información:
 - https://developer.mozilla.org/en-US/docs/Web/CSS/:first-of-type
 - https://developer.mozilla.org/en-US/docs/Web/CSS/:last-of-type
 - https://developer.mozilla.org/en-US/docs/Web/CSS/:nth-of-type
+
+# Alternativa de solución
+
+Miradlo SOLO si habéis intentado el ejercicio primero:
+
+[Solución](../css/4-pig-emoji/solution.css)
