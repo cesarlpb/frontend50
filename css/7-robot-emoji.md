@@ -51,3 +51,6 @@ Tu presentación será evaluada en función de cuán similar sea tu salida en el
 ## Sugerencia de presentación
 
 ![Alt text](image-7.png)
+
+## Referencias
+https://usefulangle.com/post/333/css-triangle
