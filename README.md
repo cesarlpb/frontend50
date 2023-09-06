@@ -22,3 +22,7 @@ Reto:
 - [Ejercicio 10 - Productos](./css/6-products.md)
 - [Ejercicio 11 - Emoji de Robot](./css/7-robot-emoji.md)
 - [Ejercicio 12 - Menú de Notificaciones](./css/8-notifications.md)
+
+## JS (13-29)
+
+- [Ejercicio 13 - Flatten ](./js/1-flatten.md)
