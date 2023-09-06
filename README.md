@@ -29,4 +29,4 @@ Reto:
 - [Ejercicio 14 - Test Framework ](./js/2-test-framework.md)
 - [Ejercicio 15 - Array Methods ](./js/3-array-methods.md)
 - [Ejercicio 16 - Event Target ](./js/4-event-target.md)
-
+- [Ejercicio 17 - Debounce ](./js/5-debounce.md)
