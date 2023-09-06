@@ -64,3 +64,9 @@ Tu envío se evaluará según la similitud de la salida del navegador con la Sal
 ```
 ## Sugerencia de presentación
 ![Alt text](image-5.png)
+
+# Alternativa de solución
+
+Miradlo SOLO si habéis intentado el ejercicio primero:
+
+[Solución](../css/5-purchase-form/solution.css)
