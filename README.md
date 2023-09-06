@@ -30,3 +30,4 @@ Reto:
 - [Ejercicio 15 - Array Methods ](./js/3-array-methods.md)
 - [Ejercicio 16 - Event Target ](./js/4-event-target.md)
 - [Ejercicio 17 - Debounce ](./js/5-debounce.md)
+- [Ejercicio 18 - This Binding ](./js/6-this-binding.md)
