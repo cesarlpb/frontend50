@@ -1,7 +1,7 @@
 # CSS 4 - Pig emoji
 
 ```
-Se te proporciona un archivo HTML con la marca para un emoji de cerdo.
+Se te proporciona un archivo HTML con marcado HTML para estilar un emoji de cerdo.
 
 Usando solo CSS, estiliza el HTML para que tenga la apariencia de un emoji de cerdo con las siguientes características:
 
@@ -23,7 +23,6 @@ Tu envío se evaluará según la similitud de la salida del navegador con la Sal
       <div class="ear"></div>
     </div>
 
-
     <div>
       <div class="eye">
         <div class="pupil"></div>
@@ -33,8 +32,8 @@ Tu envío se evaluará según la similitud de la salida del navegador con la Sal
       </div>
     </div>
 
-
     <div class="nose">
+      <div class="nostril"></div>
       <div class="nostril"></div>
     </div>
   </div>
