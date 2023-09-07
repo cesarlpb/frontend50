@@ -1,7 +1,7 @@
 # Notifications Menu
 
 ```
-Se te proporciona un archivo HTML que contiene la marcación para un menú de notificaciones. Usando solo CSS, replica la salida esperada siguiendo estas especificaciones:
+Se te proporciona un archivo HTML que contiene el marcado para un menú de notificaciones. Usando solo CSS, replica la salida esperada siguiendo estas especificaciones:
 
 - El contenedor general tiene un ancho de 280px, 10px de relleno a cada lado (creando un ancho total de 300px), un radio de borde de 10px y un color de fondo de gris claro.
 - El encabezado "Notificaciones" está centrado horizontalmente y el texto está subrayado. Hay un espacio vertical de 10px entre el encabezado y la primera notificación. Se debe eliminar cualquier margen predeterminado de este encabezado.
