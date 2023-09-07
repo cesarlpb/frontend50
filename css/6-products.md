@@ -13,7 +13,7 @@ Se te proporciona un archivo HTML que contiene divs que representan los producto
 - La tercera fila contiene "Producto 4" y "Producto 5", en ese orden.
   - "Producto 4" tiene un ancho del 40% del ancho del contenedor.
   - "Producto 5" ocupa cualquier espacio horizontal restante, dejando 10px entre los dos productos.
-  - "Producto 5" tiene una altura de 75px, y FrontendExpert se ajusta a la parte inferior de la fila.
+  - "Producto 5" tiene una altura de 75px, y "Producto 5" se ajusta a la parte inferior de la fila.
 
 - Las tres filas tienen un espacio vertical de 24px entre ellas.
 

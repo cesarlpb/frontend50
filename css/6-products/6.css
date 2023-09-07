@@ -1,0 +1,61 @@
+body{
+  background-color: aliceblue;
+}
+/* Solución */
+:root{
+  font-size: 16px;
+  --line-height: 18.5px;
+  /* variables */
+}
+body{
+  padding: 10px;
+  margin: 0;
+}
+div:first-of-type{
+  background-color: #94a3b8;
+  width: 100%;
+  color: #e2e8f0;
+  font-family: monospace;
+}
+.product{
+  border: 0px solid #64748b;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#product_1{
+  width: 50%;
+  transform: translate(0, calc(75px / 2 - 18.5px/2  ));
+  display: inline-block;
+  background-color: #475569;
+}
+#product_2{
+  width: 30%;
+  height: 75px;
+  margin: 0 10%;
+  margin-bottom: 24px;
+  display: inline-block;  
+  background-color: #334155;
+}
+#product_3{
+  display: inline-block;
+  width: 75%;
+  margin: 0 calc((100% - 75%) / 2);
+  margin-bottom: 24px;
+  background-color: #1e293b;
+}
+#product_4{
+  display: inline-block;
+  width: 40%;
+  background-color: #0f172a;
+}
+#product_5{
+  display: inline-flex;
+  margin-left: 10px;
+  width: calc(100% - 40% - 10px);
+  height: 75px;
+  background-color: #020617;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+}
