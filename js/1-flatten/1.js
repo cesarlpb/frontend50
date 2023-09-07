@@ -16,13 +16,16 @@ function flattenArray(arr){
   let flattenedArray = []
   for(let i = 0; i < arr.length; i++){
     let item = arr[i];
+    // Caso [] -> no se añade elemento al array "aplanado"
     if(Array.isArray(item) && item.length == 0){
       continue
     }
+    // Si es array -> se "aplana"
     else if(Array.isArray(item)){
       let temp = flattenArray(item) // item es un array -> recursión
       temp.forEach(e => { flattenedArray.push(e) })
     }
+    // Caso en el que no tenemos array, es un número, string...
     else{
       flattenedArray.push(item)
     }
@@ -43,9 +46,7 @@ function flatten(input){
         return 'object'
       } else if(Array.isArray(input)){
         // Salida de arrays 
-        let flattenedArray = []
-        flattenArray(input)
-        return flattenedArray
+        return flattenArray(input)
       }else{
         throw new Error('Tipo de variable no válido' + typeof variable)
       }
@@ -64,10 +65,11 @@ let objeto = {
   "a": "algo",
   "b": {"c": "más cosas"}
 }
-
+let arrayAnidado = [1,2,[3,4],[], "text", [[[1,2,3]]]]
 console.group("Casos de input no primitivo:")
-  console.log("input: [],", "output: " + flatten([])) // []
+  console.log("input: [],", "output: [" + flatten([]) + "]  ") // []
   console.log("input: [1, 2, 3],", "output: " + flatten([1, 2, 3])) // []
+  console.log("input: [" + arrayAnidado + "]  ", "output: [" + flatten(arrayAnidado) + "]") // [1, 2, 3, 4, 'text', 1, 2, 3]  
   console.log("input: {},", "output: " + flatten({})) // {}
   console.log("input: ," + JSON.stringify(objeto), "output: " + flatten(objeto)) // {}
 console.groupEnd()
